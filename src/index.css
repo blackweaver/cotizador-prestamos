@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +10,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 100%;
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  border-radius: 1rem !important;
+  min-height: 80vh;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+form, .mensajes {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.mensajes {
+  text-align: center;
+}
+
+.resultado {
+  border: solid 2px #00b0d7;
+  padding: 3rem 0;
+}
+
+form label {
+  text-align: center;
+  font-size: 2rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input[type="submit"]:disabled {
+  opacity: .2;
+  color: black;
 }

@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Create a project (cliente para react)
+
+sudo npm install -g create-react-app
+create-react-app nombre
+
+Opcionalmente se puede instalar skeleton - getskeleton.com
+En App.js:
+import './normalize.css';
+import './skeleton.css';
+
+npm start
+
 ## Available Scripts
 
 In the project directory, you can run:
